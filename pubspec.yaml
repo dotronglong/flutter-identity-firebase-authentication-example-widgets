@@ -1,0 +1,20 @@
+name: identity_firebase_authentication_example_widgets
+description: Provide example widgets to help build example faster
+version: 0.0.1
+author: Long Do <me@dotronglong.com>
+homepage: https://github.com/dotronglong/flutter-identity-firebase-authentication-example-widgets
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sso: ^0.1.0
+  identity: ^0.1.0
+  identity_firebase: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
