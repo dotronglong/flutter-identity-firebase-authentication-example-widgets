@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
 
-    Identity.of(context).init(FirebaseProvider(widget.authenticators),
+    IdentityFirebaseProvider.init(context, widget.authenticators,
         (context) => UserPage(user: Identity.instance.user));
   }
 }

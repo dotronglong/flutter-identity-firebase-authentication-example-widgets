@@ -10,9 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  sso: ^0.1.0
-  identity: ^0.1.0
-  identity_firebase: ^0.1.0
+  sso: ^0.2.0
+  identity: ^0.2.0
+  identity_firebase: ^0.2.0
 
 dev_dependencies:
   flutter_test:
